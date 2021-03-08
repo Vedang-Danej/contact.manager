@@ -7,6 +7,7 @@ app.use(express.json({ extended: false }));
 // app.get("/", (req, res) =>
 //   res.json({ msg: `The backend server for the Contact Manager Application` })
 // );
+
 // define routes
 app.use("/api/users", require("./routes/users"));
 app.use("/api/auth", require("./routes/auth"));
